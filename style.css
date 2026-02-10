@@ -309,3 +309,51 @@ input[type="search"] {
 .card4 h4 {
   padding-left: 10px;
 }
+
+
+
+/* TABLETTE */
+@media (max-width: 1024px) {
+
+  /* ===== CONTENEUR HÉBERGEMENTS + POPULAIRES ===== */
+  .hebergements-populaires {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  /* ===== HÉBERGEMENTS ===== */
+  .parent {
+    width: 100%;
+  }
+
+  /* ===== POPULAIRES ===== */
+  .populaires {
+    width: 100%;
+  }
+
+  /* ===== CARTES POPULAIRES ===== */
+  .populaires-cards {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .populaires-cards a {
+    flex: 1;
+  }
+
+  .card-title {
+    font-size: 14px;
+  }
+
+  .card-subtitle {
+    font-size: 13px;
+  }
+  /* ===== ACTIVTE ===== */
+  .card3 {
+    height: 200px;
+    width: 180px;
+  }
+  .card3 img {
+    height: 70%;
+  }
+}
