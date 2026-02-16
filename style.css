@@ -134,7 +134,7 @@ input[type="search"] {
   gap: 30px;
 }
 
-.parent {
+.hebergements-marseille{
   background: #F2F2F2;
   padding: 20px;
   padding-top: 10px;
@@ -208,7 +208,7 @@ input[type="search"] {
     color: inherit; 
 }
 
-.card2 {
+.card-populaire {
     display: flex;
     background-color: #ffffff;
     border-radius: 15px;
@@ -218,7 +218,7 @@ input[type="search"] {
 
 }
 
-.card2 img {
+.card-populaire img {
     width: 33%;
     height: 140px;
     object-fit: cover;
@@ -259,13 +259,13 @@ input[type="search"] {
     color: #F2F2F2;
 }
 
-.align_card3 {
+.align_card-activity {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
 
-.card3 {
+.card-activity {
   height: 440px;
   border-radius: 20px;
   overflow: hidden;
@@ -273,42 +273,46 @@ input[type="search"] {
 }
 
 
-.card3 img {
+.card-activity img {
   width: 100%;
   height: 85%;
   object-fit: cover;
 }
-.card3 h4 {
+.card-activity h4 {
   margin-left: 10px;
 }
 
-.parent4 {
+.footer-info {
   display: flex;
   justify-content: space-around;
   background: #F2F2F2;
   padding: 30px;
   margin-top: 50px;
 }
-.card4 {
+.card-footer {
   color: black;
 }
-.card4 a {
+.card-footer a {
   text-decoration: none;
   color: black;
 }
-.card4 a:hover {
+.card-footer a:hover {
   color: black;
 }
-.card4 ul {
+.card-footer ul {
   list-style: none;
   padding: 0px;
 }
-.card4 ul li {
+.card-footer ul li {
   padding: 5px;
 }
-.card4 h4 {
+.card-footer h4 {
   padding-left: 10px;
 }
+a {
+  text-decoration: none;
+}
+
 
 @media (max-width: 1024px) {
 .hebergements-populaires {
@@ -316,7 +320,7 @@ input[type="search"] {
     gap: 50px;
   }
 
-  .parent {
+  .hebergements-marseille{
     width: 100%;
   }
 
@@ -340,11 +344,11 @@ input[type="search"] {
   .card-subtitle {
     font-size: 13px;
   }
-  .card3 {
+  .card-activity {
     height: 200px;
     width: 90%;
   }
-  .card3 img {
+  .card-activity img {
     height: 70%;
   }
 }
@@ -448,7 +452,7 @@ input[type="search"] {
     gap: 15px;
   }
 
-  .card2 {
+  .card-populaire {
     height: auto;
   }
 
@@ -472,7 +476,7 @@ input[type="search"] {
     flex-direction: column;
   }
 
-  .parent {
+  .hebergements-marseille{
     border-radius: 0;
     background-color: #ffffff;
   }
@@ -485,26 +489,27 @@ input[type="search"] {
     height: 125px;
   }
 
-  .align_card3 {
+  .align_card-activity {
     grid-template-columns: 1fr;
+    padding: 20px;
   }
 
-  .card3 {
+  .card-activity {
     width: 100%;
-    height: 150px;
+    height: 200px;
   }
-  .card3 h4 {
+  .card-activity h4 {
     margin: 6px;
     margin-left: 105x;
   }
 
-  .parent4 {
+  .footer-info {
     flex-direction: column;
     gap: 20px;
     padding: 20px;
   }
 
-  .card4 {
+  .card-footer {
     margin: 0;
   }
 }
