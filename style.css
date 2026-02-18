@@ -3,6 +3,9 @@
   font-family: 'Relaway', sans-serif;
   font-size: 1em;
 }
+body {
+  max-width: 1440px;
+}
 main {
   padding: 10px;
 }
@@ -10,7 +13,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px  0px;
+  padding: 20px  0px 20px 11px;
 }
 
 header img.booki {
@@ -173,6 +176,7 @@ input[type="search"] {
 }
 .infos_bottom {
   box-sizing: border-box;
+  padding: 0px 0px 5px 5px;
 }
 
 .populaires {
@@ -279,7 +283,7 @@ input[type="search"] {
   object-fit: cover;
 }
 .card-activity h4 {
-  margin-left: 10px;
+  margin: 10px;
 }
 
 footer section {
@@ -505,7 +509,7 @@ a {
     margin-left: 105x;
   }
 
-  footer {
+  footer section {
     flex-direction: column;
     gap: 20px;
     padding: 20px;
