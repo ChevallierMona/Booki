@@ -282,12 +282,14 @@ input[type="search"] {
   margin-left: 10px;
 }
 
-.footer-info {
+footer section {
   display: flex;
   justify-content: space-around;
   background: #F2F2F2;
   padding: 30px;
   margin-top: 50px;
+  padding-left: 10px;
+
 }
 .card-footer {
   color: black;
@@ -503,7 +505,7 @@ a {
     margin-left: 105x;
   }
 
-  .footer-info {
+  footer {
     flex-direction: column;
     gap: 20px;
     padding: 20px;
