@@ -111,7 +111,7 @@ input[type="search"] {
     color: #0065fc;
     padding-right: 5px;
 }
-#star_grey {
+.star_grey {
     color: #F2F2F2;
 }
 
@@ -203,7 +203,7 @@ input[type="search"] {
     display: flex;
     flex-direction: column;
     gap: 15px;
-      justify-content: space-between;
+    justify-content: space-between;
 
 }
 
@@ -506,7 +506,6 @@ a {
   }
   .card-activity h4 {
     margin: 6px;
-    margin-left: 105x;
   }
 
   footer section {
